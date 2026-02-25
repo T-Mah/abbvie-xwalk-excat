@@ -1,0 +1,61 @@
+{
+  "templates": [
+    {
+      "name": "leader-profile",
+      "urls": [
+        "https://www.abbvie.com/who-we-are/our-leaders/liz-shea.html"
+      ],
+      "description": "Leadership team member biography/profile page with executive photo, title, and bio text",
+      "blocks": [
+        {
+          "name": "hero",
+          "instances": [
+            ".container.abbvie-container.cmp-container-full-width",
+            ".container.abbvie-container.overlap-predecessor"
+          ]
+        },
+        {
+          "name": "columns",
+          "instances": [
+            ".grid"
+          ]
+        }
+      ],
+      "sections": [
+        {
+          "id": "section-1",
+          "name": "Leader Header",
+          "selector": [
+            ".container.abbvie-container.cmp-container-full-width",
+            ".container.abbvie-container.overlap-predecessor"
+          ],
+          "style": "navy-blue",
+          "blocks": [
+            "hero"
+          ],
+          "defaultContent": []
+        },
+        {
+          "id": "section-2",
+          "name": "Bio Content",
+          "selector": ".grid",
+          "style": null,
+          "blocks": [
+            "columns"
+          ],
+          "defaultContent": []
+        },
+        {
+          "id": "section-3",
+          "name": "Separator",
+          "selector": ".separator.separator-height-96",
+          "style": null,
+          "blocks": [],
+          "defaultContent": [
+            ".cmp-separator__horizontal-rule"
+          ]
+        }
+      ]
+    }
+  ]
+}
