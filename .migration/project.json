@@ -1,0 +1,9 @@
+{
+  "type": "xwalk",
+  "libraryUrl": "https://main--sta-xwalk-boilerplate--aemysites.aem.page/tools/sidekick/library.json",
+  "contentHostUrl": "author-p10961-e880305.adobeaemcloud.com",
+  "aemSitePath": "/content/eaem-xwalk-eds-test",
+  "aemAssetsFolderPath": "/content/dam/eaem-xwalk-eds-test",
+  "aemSiteName": "eaem-xwalk-eds-test",
+  "aemSiteTitle": "eaem-xwalk-eds-test"
+}
