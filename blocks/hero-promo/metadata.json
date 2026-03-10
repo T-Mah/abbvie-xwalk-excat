@@ -1,0 +1,40 @@
+{
+  "variantName": "hero-promo",
+  "baseBlock": "hero",
+  "version": "1.0.0",
+  "created": "2026-03-06T15:43:00.000Z",
+  "sourceContext": {
+    "originUrl": "https://www.hydroquebec.com/residentiel/",
+    "originPage": "Residential services landing page",
+    "blockPosition": "top"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "blue-accent",
+    "density": "spacious",
+    "purpose": "promo-hero",
+    "imagePattern": "large",
+    "structure": "heading + CTA + image"
+  },
+  "contentPattern": {
+    "structure": "heading + CTA button + product image",
+    "buttonCount": 1,
+    "imageCount": 1
+  },
+  "reuseGuidance": {
+    "suitableFor": [
+      "promotional landing pages",
+      "product feature pages",
+      "campaign pages with image + CTA"
+    ],
+    "notSuitableFor": [
+      "text-only hero sections",
+      "blog article headers",
+      "minimal hero with no image"
+    ]
+  },
+  "usage": {
+    "pagesUsing": ["/residentiel/index"],
+    "reuseCount": 1,
+    "lastUsed": "2026-03-06T15:43:00.000Z"
+  }
+}

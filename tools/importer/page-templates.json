@@ -1,58 +1,118 @@
 {
   "templates": [
     {
-      "name": "leader-profile",
+      "name": "residential-landing",
       "urls": [
-        "https://www.abbvie.com/who-we-are/our-leaders/liz-shea.html"
+        "https://www.hydroquebec.com/residentiel/"
       ],
-      "description": "Leadership team member biography/profile page with executive photo, title, and bio text",
+      "description": "Residential services landing page with service categories, quick links, and promotional content for Hydro-Québec residential customers",
       "blocks": [
         {
-          "name": "hero",
+          "name": "hero-promo",
           "instances": [
-            ".container.abbvie-container.cmp-container-full-width",
-            ".container.abbvie-container.overlap-predecessor"
+            "section.hq-accueil-hero"
           ]
         },
         {
-          "name": "columns",
+          "name": "cards-feature",
           "instances": [
-            ".grid"
+            ".hq-promo-bloc",
+            "ul.hq-grid.tuile-container",
+            ".hq-tuile-contenant",
+            ".hq-grid.hq-tuile-contenant"
+          ]
+        },
+        {
+          "name": "columns-info",
+          "instances": [
+            ".bloc-statistique .liste-blocs",
+            ".hq-container.hq-grid.hq-grid-cols-4"
           ]
         }
       ],
       "sections": [
         {
           "id": "section-1",
-          "name": "Leader Header",
-          "selector": [
-            ".container.abbvie-container.cmp-container-full-width",
-            ".container.abbvie-container.overlap-predecessor"
-          ],
-          "style": "navy-blue",
+          "name": "Hero Banner",
+          "selector": "section.hq-accueil-hero",
+          "style": null,
           "blocks": [
-            "hero"
+            "hero-promo"
           ],
           "defaultContent": []
         },
         {
           "id": "section-2",
-          "name": "Bio Content",
-          "selector": ".grid",
+          "name": "À la une",
+          "selector": "section.hq-section-accueil:has(.hq-promo)",
           "style": null,
           "blocks": [
-            "columns"
+            "cards-feature"
+          ],
+          "defaultContent": [
+            "h2.hq-titre3"
+          ]
+        },
+        {
+          "id": "section-3",
+          "name": "Quick Links",
+          "selector": "section.hq-section-accueil.hq-bg-bleu-10:has(.tuile-container)",
+          "style": "light-blue",
+          "blocks": [
+            "cards-feature"
+          ],
+          "defaultContent": [
+            "h2.hq-titre3",
+            "a.hq-bouton-texte"
+          ]
+        },
+        {
+          "id": "section-4",
+          "name": "L'électricité et vous",
+          "selector": "section.hq-section-accueil.hq-bg-bleu-80",
+          "style": "dark-blue",
+          "blocks": [
+            "cards-feature"
+          ],
+          "defaultContent": [
+            "h2.hq-titre3"
+          ]
+        },
+        {
+          "id": "section-5",
+          "name": "Statistics",
+          "selector": "section.hq-section-accueil.bloc-statistique",
+          "style": null,
+          "blocks": [
+            "columns-info"
+          ],
+          "defaultContent": [
+            "h2.hq-titre3"
+          ]
+        },
+        {
+          "id": "section-6",
+          "name": "News and Publications",
+          "selector": [
+            "section.hq-section-accueil.hq-bg-bleu-10:has(.hq-bloc-maillage)",
+            "section.hq-section-accueil.hq-bg-bleu-10:last-of-type"
+          ],
+          "style": "light-blue",
+          "blocks": [
+            "columns-info"
           ],
           "defaultContent": []
         },
         {
-          "id": "section-3",
-          "name": "Separator",
-          "selector": ".separator.separator-height-96",
+          "id": "section-7",
+          "name": "Restons en contact",
+          "selector": "section.hq-section-accueil:last-of-type",
           "style": null,
-          "blocks": [],
+          "blocks": [
+            "cards-feature"
+          ],
           "defaultContent": [
-            ".cmp-separator__horizontal-rule"
+            "h2.hq-titre3"
           ]
         }
       ]

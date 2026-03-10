@@ -1,0 +1,21 @@
+{
+  "status": "success",
+  "url": "https://www.hydroquebec.com/residentiel/",
+  "path": "residentiel",
+  "timestamp": "2026-03-06T16:05:24.726Z",
+  "title": "Hydro-Québec | Accueil",
+  "template": "residential-landing",
+  "blocks": [
+    "hero-promo",
+    "cards-feature",
+    "cards-feature",
+    "cards-feature",
+    "cards-feature",
+    "cards-feature",
+    "cards-feature",
+    "cards-feature",
+    "cards-feature",
+    "columns-info",
+    "columns-info"
+  ]
+}

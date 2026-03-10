@@ -1,0 +1,40 @@
+{
+  "variantName": "columns-info",
+  "baseBlock": "columns",
+  "version": "1.0.0",
+  "created": "2026-03-06T15:43:00.000Z",
+  "sourceContext": {
+    "originUrl": "https://www.hydroquebec.com/residentiel/",
+    "originPage": "Residential services landing page",
+    "blockPosition": "middle"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "light",
+    "density": "spacious",
+    "purpose": "informational",
+    "imagePattern": "noimg",
+    "structure": "statistics or text columns side-by-side"
+  },
+  "contentPattern": {
+    "structure": "2-3 columns with text content (numbers, lists, headings)",
+    "buttonCount": 0,
+    "imageCount": 0
+  },
+  "reuseGuidance": {
+    "suitableFor": [
+      "statistics display sections",
+      "news + publications side-by-side",
+      "informational two-column layouts",
+      "comparison sections"
+    ],
+    "notSuitableFor": [
+      "image-heavy columns",
+      "complex interactive layouts"
+    ]
+  },
+  "usage": {
+    "pagesUsing": ["/residentiel/index"],
+    "reuseCount": 1,
+    "lastUsed": "2026-03-06T15:43:00.000Z"
+  }
+}
