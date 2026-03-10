@@ -1,0 +1,41 @@
+{
+  "variantName": "cards-feature",
+  "baseBlock": "cards",
+  "version": "1.0.0",
+  "created": "2026-03-06T15:43:00.000Z",
+  "sourceContext": {
+    "originUrl": "https://www.hydroquebec.com/residentiel/",
+    "originPage": "Residential services landing page",
+    "blockPosition": "middle"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "light",
+    "density": "compact",
+    "purpose": "feature-highlight",
+    "imagePattern": "mixed",
+    "structure": "tag/icon/image + text + link"
+  },
+  "contentPattern": {
+    "structure": "category label or icon + description + CTA link",
+    "buttonCount": 1,
+    "imageCount": 0
+  },
+  "reuseGuidance": {
+    "suitableFor": [
+      "feature highlight grids",
+      "service category cards",
+      "icon-based quick link sections",
+      "contact/engagement cards with images"
+    ],
+    "notSuitableFor": [
+      "product catalog with pricing",
+      "team member profiles",
+      "testimonial cards"
+    ]
+  },
+  "usage": {
+    "pagesUsing": ["/residentiel/index"],
+    "reuseCount": 1,
+    "lastUsed": "2026-03-06T15:43:00.000Z"
+  }
+}
